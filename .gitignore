@@ -1,0 +1,46 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== Streamlit / segredos =====
+**/.streamlit/secrets.toml
+*.env
+.env
+
+# ===== Credenciais / chaves (nunca commitar) =====
+*chave*.txt
+*secret*.txt
+*client_secret*
+*.pem
+*.pfx
+*.p12
+
+# ===== Dados de exemplo / arquivos de origem (não versionar) =====
+# Notas, extratos e XML usados apenas como exemplo/teste
+*.pdf
+*.xlsx
+*.xlsb
+*.csv
+TESTE_*.xml
+EXTRATO-DUIMP-*
+# Nota de entrada de exemplo (chave de 44 dígitos)
+[0-9][0-9][0-9][0-9]*.xml
+!requirements.txt
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+FrontWebDuimpOmie/
