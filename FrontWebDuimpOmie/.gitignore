@@ -25,3 +25,5 @@ Thumbs.db
 *.xlsb
 *.csv
 !requirements.txt
+# Template da planilha de Importacao de Mercadoria (necessario no deploy)
+!template_importacao_mercadoria.xlsx
