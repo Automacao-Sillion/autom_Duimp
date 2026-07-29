@@ -42,3 +42,7 @@ EXTRATO-DUIMP-*
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Declaracoes DUIMP reais (dado fiscal - nunca versionar)
+DUIMP_*.xml
+
